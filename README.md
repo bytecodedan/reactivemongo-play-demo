@@ -7,8 +7,10 @@ This application has the following end-points:
 
 ###Users
 
-* GET       /users             list of all users                
-* POST      /users             creates a user    
-* GET       /users/:userId     fetches a user       
-* PUT       /users/:userId     updates a user       
-* DELETE    /users/:userId     deletes a user
+```scala
+GET       /users             list of all users                
+POST      /users             creates a user    
+GET       /users/:userId     fetches a user       
+PUT       /users/:userId     updates a user       
+DELETE    /users/:userId     deletes a user
+```
