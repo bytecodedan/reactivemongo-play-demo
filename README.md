@@ -2,6 +2,7 @@
 A simple RESTful application demonstrating ReactiveMongo usage with Play Framework.  It tracks comments and ratings of an item.  An item can be anything (book, movie, automobile, etc).  Aside from basic model validation, there are no other restrictions at the moment.  For example, a user can submit several reviews per item.
 
 ##Technologies
+* Scala 2.10
 * Play Framework 2.2.1
 * MongoDB 2.4.6
 * ReactiveMongo Play plugin 0.10.2
