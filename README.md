@@ -52,10 +52,10 @@ DELETE    /items/:itemId     # deletes an item
 # Routes
 # ------
 GET       /items/:itemId/reviews               # list of all items                
-POST      /items/:itemId/reviews               # creates an item    
-GET       /items/:itemId/reviews/:reviewId     # fetches an item       
-PUT       /items/:itemId/reviews/:reviewId     # updates an item       
-DELETE    /items/:itemId/reviews/:reviewId     # deletes an item
+POST      /items/:itemId/reviews               # creates a review of an item    
+GET       /items/:itemId/reviews/:reviewId     # fetches a review of an item      
+PUT       /items/:itemId/reviews/:reviewId     # updates a review of an item        
+DELETE    /items/:itemId/reviews/:reviewId     # deletes a review of an item 
 
 # JSON (POST & PUT request body)
 # ------
