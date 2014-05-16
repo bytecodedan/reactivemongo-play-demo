@@ -6,7 +6,6 @@ A simple RESTful application demonstrating ReactiveMongo usage with Play Framewo
 This application has the following end-points:
 
 ###Users
-
 ```scala
 GET       /users             list of all users                
 POST      /users             creates a user    
