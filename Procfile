@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/warm-sea-6103 -Dhttp.port=$PORT -Dmongodb.uri=$MONGOHQ_URL
+web: target/universal/stage/bin/warm-sea-6103 -Dprocess.type=web -Dhttp.port=$PORT -Dmongodb.uri=$MONGOHQ_URL
