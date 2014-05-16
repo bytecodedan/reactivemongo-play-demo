@@ -64,7 +64,7 @@ curl -i -X DELETE http://localhost:9000/items/5376035b7d000002ff406328
 ###Reviews
 ######Routes
 ```scala
-GET       /items/:itemId/reviews               # list of all items                
+GET       /items/:itemId/reviews               # list of all reviews of an item                
 POST      /items/:itemId/reviews               # creates a review of an item    
 GET       /items/:itemId/reviews/:reviewId     # fetches a review of an item      
 PUT       /items/:itemId/reviews/:reviewId     # updates a review of an item        
