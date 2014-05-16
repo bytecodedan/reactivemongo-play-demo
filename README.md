@@ -7,7 +7,9 @@ A simple RESTful application demonstrating ReactiveMongo usage with Play Framewo
 * MongoDB 2.4.6
 * ReactiveMongo Play plugin 0.10.2
 
-##End-points:
+##End-points
+The following demo app can be used to test the endpoints via cURL or any other REST tool:
+http://warm-sea-6103.herokuapp.com/
 
 ###Users
 ######Routes
