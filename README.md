@@ -18,7 +18,7 @@ PUT       /users/:userId            # updates a user
 DELETE    /users/:userId            # deletes a user
 GET       /users/:userId/reviews    # lists of all reviews from a user
 ```
-######JSON Request Body (POST & PUT)
+######Example Request Body (POST & PUT)
 ```json
 {
  "firstName": "Jane",
@@ -45,7 +45,7 @@ GET       /items/:itemId     # fetches an item
 PUT       /items/:itemId     # updates an item       
 DELETE    /items/:itemId     # deletes an item
 ```
-######JSON Request Body (POST & PUT)
+######Example Request Body (POST & PUT)
 ```json
 {
  "name": "ABC Frozen Yogurt"
@@ -69,7 +69,7 @@ GET       /items/:itemId/reviews/:reviewId     # fetches a review of an item
 PUT       /items/:itemId/reviews/:reviewId     # updates a review of an item        
 DELETE    /items/:itemId/reviews/:reviewId     # deletes a review of an item 
 ```
-######JSON Request Body (POST & PUT)
+######Example Request Body (POST & PUT)
 ```json
 {
  "item": {
