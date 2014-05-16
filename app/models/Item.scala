@@ -6,7 +6,6 @@ import play.api.libs.json._
 import play.api.libs.functional.syntax._
 import play.modules.reactivemongo.json.BSONFormats.BSONObjectIDFormat
 import scala.Some
-import org.joda.time.format.ISODateTimeFormat
 
 case class Item(
   id: Option[BSONObjectID],

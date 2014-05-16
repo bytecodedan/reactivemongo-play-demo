@@ -2,6 +2,13 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
+# User
+GET           /users                                  controllers.Users.index
+POST          /users                                  controllers.Users.create
+GET           /users/:userId                          controllers.Users.find(userId: String)
+PUT           /users/:userId                          controllers.Users.update(userId: String)
+DELETE        /users/:userId                          controllers.Users.delete(userId: String)
+
 # Item
 GET           /items                                  controllers.Items.index
 POST          /items                                  controllers.Items.create
@@ -13,15 +20,8 @@ DELETE        /items/:itemId                          controllers.Items.delete(i
 GET           /items/:itemId/reviews                  controllers.Reviews.findByItemId(itemId: String)
 POST          /items/:itemId/reviews                  controllers.Reviews.create(itemId: String)
 GET           /items/:itemId/reviews/:reviewId        controllers.Reviews.findById(itemId: String, reviewId: String)
-#PUT           /items/:itemId/reviews/:reviewId        controllers.Reviews.update(itemId: String, reviewId: String)
+PUT           /items/:itemId/reviews/:reviewId        controllers.Reviews.update(itemId: String, reviewId: String)
 DELETE        /items/:itemId/reviews/:reviewId        controllers.Reviews.delete(itemId: String, reviewId: String)
-
-# User
-GET           /users                                  controllers.Users.index
-POST          /users                                  controllers.Users.create
-GET           /users/:userId                          controllers.Users.find(userId: String)
-PUT           /users/:userId                          controllers.Users.update(userId: String)
-DELETE        /users/:userId                          controllers.Users.delete(userId: String)
 
 # User reviews
 GET           /users/:userId/reviews                  controllers.Reviews.findByUserId(userId: String)
