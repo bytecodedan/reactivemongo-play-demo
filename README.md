@@ -8,10 +8,9 @@ A simple RESTful application demonstrating ReactiveMongo usage with Play Framewo
 * ReactiveMongo Play plugin 0.10.2
 
 ##End-points
-The following demo app can be used to test the endpoints via cURL or any other REST tool:
-http://warm-sea-6103.herokuapp.com/
 
 ###Users
+Demo -> http://warm-sea-6103.herokuapp.com/users
 ######Routes
 ```scala
 GET       /users                    # list of all users                
@@ -40,6 +39,7 @@ curl -i -X DELETE http://localhost:9000/users/5375fec37d000038c8406325
 ```
 
 ###Items
+Demo -> http://warm-sea-6103.herokuapp.com/items
 ######Routes
 ```scala
 GET       /items             # list of all items                
@@ -64,6 +64,7 @@ curl -i -X DELETE http://localhost:9000/items/5376035b7d000002ff406328
 ```
 
 ###Reviews
+Demo -> http://warm-sea-6103.herokuapp.com/items/537652202f000040005b953f/reviews
 ######Routes
 ```scala
 GET       /items/:itemId/reviews               # list of all reviews of an item                
