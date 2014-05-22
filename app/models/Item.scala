@@ -26,7 +26,6 @@ object Item {
   implicit val jsonWrites: Writes[Item] = (
     (__ \ "_id").writeNullable[BSONObjectID] and
     (__ \ "name").write[String] and
-//    (__ \ "reviews").writeNullable[List[Review]] and
     (__ \ "created").writeNullable[DateTime] and
     (__ \ "updated").writeNullable[DateTime]
   )(unlift(Item.unapply))
