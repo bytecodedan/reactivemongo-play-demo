@@ -1,6 +1,8 @@
 #reactivemongo-play-demo
 A simple RESTful application demonstrating ReactiveMongo usage with Play Framework.  It tracks comments and ratings of an item.  An item can be anything (book, movie, automobile, etc).  Aside from basic model validation, there are no other restrictions at the moment.  For example, a user can submit several reviews per item.
 
+NOTE: The demo is hosted on Heroku's free account.  The first request may take a few seconds as the dyno (VM) wakes up - a result of being idle for some time.
+
 ##Technologies
 * Scala 2.10
 * Play Framework 2.2.1
