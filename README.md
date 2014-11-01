@@ -28,7 +28,7 @@ GET       /users/:userId/reviews    # lists of all reviews from a user
  "firstName": "Jane",
  "lastName": "Doe",
  "email": "jdoe@test.com",
- "username": "jdoe",
+ "username": "jdoe"
 }
 ```
 ######Example cURL commands
@@ -85,7 +85,7 @@ DELETE    /items/:itemId/reviews/:reviewId     # deletes a review of an item
    "$oid": "537569297d0000f0ac406316"
  },
  "rating": 5,
- "text": "Awesome product",
+ "text": "Awesome product"
 }
 ```
 ######Example cURL commands
